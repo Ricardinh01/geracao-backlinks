@@ -1,0 +1,36 @@
+{
+  "name": "geracao backlinks",
+  "version": "1.0.0",
+  "description": "SaaS para geração de backlinks com IA",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "backlinks",
+    "seo",
+    "saas",
+    "ia"
+  ],
+  "author": "Equipe de Desenvolvimento",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "axios": "^1.5.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.4",
+    "sitemap-parser": "^1.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.2"
+  }
+}
